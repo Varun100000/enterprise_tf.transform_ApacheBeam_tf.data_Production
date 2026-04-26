@@ -1,0 +1,1001 @@
+transaction_id,product_category,price,quantity,customer_city,customer_age,discount_applied,target_purchased
+1,Books,314.77,6,New York,32,1,0
+2,Clothing,442.17,4,Los Angeles,63,1,0
+3,Sports,479.95,7,Phoenix,40,0,1
+4,Sports,104.25,1,New York,29,1,1
+5,Electronics,361.51,3,Phoenix,46,0,0
+6,Electronics,335.53,3,Los Angeles,61,0,1
+7,Books,178.26,1,Los Angeles,65,1,1
+8,Clothing,19.36,6,Houston,32,0,0
+9,Home,348.0,9,Phoenix,46,0,1
+10,Electronics,473.29,8,Chicago,62,0,0
+11,Home,319.74,7,Houston,60,1,0
+12,Home,223.29,8,Phoenix,66,0,1
+13,Clothing,267.33,6,New York,38,0,1
+14,Books,107.82,9,New York,32,0,0
+15,Clothing,377.77,3,Los Angeles,31,1,0
+16,Electronics,375.75,9,Chicago,59,0,0
+17,Home,81.3,4,New York,61,1,1
+18,Clothing,440.21,7,Phoenix,33,0,0
+19,Clothing,141.9,9,Phoenix,32,1,0
+20,Clothing,491.31,2,New York,59,1,0
+21,Electronics,197.62,2,Phoenix,21,1,0
+22,Books,97.16,9,Phoenix,44,0,1
+23,Clothing,182.34,3,Los Angeles,40,0,1
+24,Electronics,225.69,9,Chicago,46,0,0
+25,Home,43.96,5,Los Angeles,58,1,1
+26,Sports,293.33,6,Chicago,69,0,1
+27,Electronics,302.84,2,Phoenix,26,0,1
+28,Sports,372.08,8,Chicago,69,1,0
+29,Clothing,24.29,9,Phoenix,60,0,1
+30,Clothing,275.21,2,Phoenix,60,0,1
+31,Electronics,35.92,6,Los Angeles,24,1,0
+32,Sports,353.56,6,Los Angeles,59,1,0
+33,Clothing,37.31,8,Houston,21,0,1
+34,Home,456.75,5,New York,22,1,1
+35,Books,354.02,9,Houston,22,0,0
+36,Books,258.62,1,Houston,28,0,0
+37,Clothing,226.34,9,Chicago,58,0,0
+38,Sports,74.03,7,Phoenix,45,0,0
+39,Clothing,152.59,4,Phoenix,33,0,1
+40,Sports,435.79,3,Phoenix,58,1,0
+41,Home,453.18,6,New York,47,1,1
+42,Sports,10.37,1,Chicago,21,0,1
+43,Clothing,301.13,3,Chicago,19,1,1
+44,Home,362.46,2,Phoenix,63,1,0
+45,Electronics,313.19,9,Houston,20,0,0
+46,Books,50.02,3,New York,67,1,1
+47,Clothing,116.69,2,Houston,38,1,1
+48,Clothing,132.67,4,Los Angeles,23,0,1
+49,Clothing,417.55,2,Chicago,60,0,1
+50,Home,236.97,1,Chicago,35,0,1
+51,Electronics,248.55,6,Houston,61,0,0
+52,Sports,468.1,8,New York,22,0,0
+53,Electronics,322.17,2,Chicago,26,0,0
+54,Home,450.35,9,Houston,37,0,1
+55,Clothing,233.69,3,New York,45,1,1
+56,Books,83.22,8,Houston,43,0,0
+57,Clothing,465.67,8,New York,35,1,0
+58,Sports,234.77,3,Phoenix,36,1,1
+59,Books,99.0,3,New York,20,0,0
+60,Clothing,158.17,6,Los Angeles,26,1,0
+61,Books,34.89,1,Phoenix,53,1,0
+62,Electronics,239.47,4,Houston,48,1,1
+63,Home,428.03,1,Phoenix,66,0,1
+64,Clothing,467.45,3,Phoenix,34,1,0
+65,Sports,466.98,9,Houston,40,1,1
+66,Electronics,71.36,5,Houston,51,0,0
+67,Clothing,197.21,5,Los Angeles,58,1,0
+68,Electronics,23.83,4,Houston,58,1,1
+69,Sports,429.03,3,Chicago,22,1,1
+70,Clothing,185.79,5,Chicago,32,1,1
+71,Sports,319.25,4,Los Angeles,64,1,0
+72,Books,360.3,8,New York,20,0,0
+73,Sports,220.62,4,New York,36,1,0
+74,Books,160.16,8,Chicago,45,0,1
+75,Clothing,481.48,6,Houston,20,1,0
+76,Books,482.6,5,Los Angeles,55,0,0
+77,Clothing,151.82,4,New York,21,0,0
+78,Clothing,245.02,4,New York,41,0,0
+79,Home,486.69,4,Phoenix,48,1,1
+80,Clothing,12.39,9,Chicago,62,1,1
+81,Books,212.21,4,Houston,62,1,1
+82,Home,59.22,9,Los Angeles,28,1,0
+83,Home,259.49,6,New York,54,1,0
+84,Clothing,22.09,7,Phoenix,18,0,0
+85,Sports,209.38,3,Chicago,26,0,1
+86,Sports,118.14,8,Chicago,34,0,1
+87,Home,271.32,3,Los Angeles,18,1,1
+88,Clothing,498.04,1,New York,20,1,1
+89,Sports,402.26,5,Los Angeles,64,0,1
+90,Clothing,424.36,2,Los Angeles,43,1,0
+91,Clothing,321.28,6,Phoenix,48,1,1
+92,Home,30.36,9,Chicago,43,0,1
+93,Home,111.33,1,Houston,40,0,1
+94,Electronics,463.28,4,Chicago,47,1,0
+95,Sports,189.4,1,Chicago,27,1,1
+96,Sports,60.78,1,Phoenix,25,0,1
+97,Sports,354.18,8,Houston,61,1,1
+98,Books,156.73,2,New York,42,0,0
+99,Clothing,141.74,1,Houston,39,0,0
+100,Home,499.01,8,New York,32,0,1
+101,Sports,430.49,4,Houston,58,1,1
+102,Electronics,209.89,3,Los Angeles,27,0,1
+103,Sports,490.33,4,Houston,37,0,1
+104,Clothing,328.56,5,Phoenix,58,1,0
+105,Clothing,373.59,1,New York,64,0,1
+106,Home,25.44,1,Chicago,40,1,0
+107,Books,69.59,3,Phoenix,18,1,1
+108,Home,320.21,6,New York,19,1,0
+109,Sports,450.52,1,New York,36,0,0
+110,Electronics,315.63,2,Chicago,31,0,1
+111,Home,75.67,7,Los Angeles,25,1,0
+112,Books,66.72,1,Phoenix,55,1,1
+113,Home,423.65,7,Chicago,29,1,0
+114,Clothing,78.26,4,Chicago,43,0,0
+115,Sports,264.91,6,Los Angeles,44,1,1
+116,Sports,28.19,8,Phoenix,46,1,1
+117,Sports,49.53,9,Chicago,32,1,0
+118,Sports,339.45,6,Los Angeles,63,0,0
+119,Sports,347.7,9,Phoenix,18,1,1
+120,Sports,177.32,4,Houston,60,0,1
+121,Electronics,115.65,6,New York,45,0,1
+122,Books,408.72,8,Los Angeles,20,1,0
+123,Sports,116.38,9,New York,68,1,1
+124,Books,275.59,3,Houston,35,1,1
+125,Sports,484.42,2,Chicago,69,0,0
+126,Home,82.45,6,Chicago,51,0,1
+127,Sports,471.03,4,Phoenix,49,0,1
+128,Clothing,99.62,1,Los Angeles,46,1,1
+129,Electronics,288.05,8,Los Angeles,42,0,1
+130,Home,194.73,9,Phoenix,43,1,0
+131,Home,482.82,9,New York,56,1,1
+132,Clothing,144.04,2,Chicago,25,1,1
+133,Sports,205.83,9,Chicago,36,0,1
+134,Electronics,491.6,7,Los Angeles,64,0,1
+135,Home,272.87,5,Los Angeles,59,0,1
+136,Electronics,256.29,7,Phoenix,39,1,1
+137,Home,136.31,9,Houston,46,0,0
+138,Sports,353.67,8,New York,50,0,0
+139,Home,17.04,6,Houston,55,1,0
+140,Home,34.26,4,Houston,62,1,1
+141,Books,303.69,1,Los Angeles,63,0,1
+142,Sports,177.42,6,Los Angeles,52,1,1
+143,Clothing,477.13,3,Los Angeles,60,0,0
+144,Clothing,452.56,6,Houston,20,1,1
+145,Sports,359.72,6,New York,36,1,0
+146,Clothing,410.89,4,Los Angeles,27,0,1
+147,Sports,336.99,2,Chicago,44,1,1
+148,Clothing,71.54,9,New York,32,1,0
+149,Books,385.12,2,Chicago,28,1,0
+150,Clothing,112.99,3,New York,64,0,0
+151,Home,168.49,1,Los Angeles,43,1,0
+152,Sports,411.42,7,Phoenix,41,1,0
+153,Electronics,272.9,1,Los Angeles,30,0,0
+154,Electronics,431.37,9,Houston,49,0,1
+155,Sports,114.39,1,Houston,54,1,0
+156,Books,307.81,5,New York,21,1,1
+157,Clothing,51.06,7,Houston,30,1,1
+158,Books,325.1,3,Los Angeles,26,0,1
+159,Electronics,383.64,9,Chicago,66,1,1
+160,Sports,296.62,8,Los Angeles,51,0,1
+161,Sports,140.45,3,New York,54,0,0
+162,Books,25.36,5,Houston,65,1,0
+163,Books,68.53,7,Chicago,24,1,0
+164,Clothing,314.93,4,Phoenix,18,0,1
+165,Home,467.87,5,Chicago,29,1,0
+166,Home,111.2,3,Chicago,38,1,1
+167,Clothing,370.16,9,Los Angeles,28,0,1
+168,Home,434.56,9,Phoenix,61,1,1
+169,Electronics,265.23,7,New York,68,0,1
+170,Home,337.94,2,New York,61,1,0
+171,Clothing,409.36,7,Chicago,61,0,0
+172,Home,137.73,7,Chicago,31,0,0
+173,Sports,155.48,5,Houston,51,1,0
+174,Books,10.31,9,Phoenix,51,0,0
+175,Electronics,481.92,3,Chicago,42,0,1
+176,Sports,459.6,4,Houston,21,1,0
+177,Sports,384.64,1,Phoenix,69,1,1
+178,Clothing,48.75,6,New York,43,1,1
+179,Books,229.28,4,Houston,33,0,1
+180,Books,59.93,1,Phoenix,27,0,0
+181,Electronics,17.8,2,Houston,62,0,1
+182,Clothing,311.93,3,Chicago,19,1,1
+183,Electronics,480.81,9,Los Angeles,52,0,0
+184,Home,452.41,8,New York,36,0,1
+185,Sports,351.41,7,Chicago,23,1,1
+186,Electronics,57.35,4,Chicago,36,0,1
+187,Sports,144.34,1,Phoenix,69,1,0
+188,Clothing,166.83,8,Houston,68,1,1
+189,Home,383.94,4,New York,25,1,1
+190,Clothing,403.1,3,Chicago,31,0,0
+191,Home,198.7,9,Phoenix,27,0,0
+192,Home,214.76,4,New York,20,0,1
+193,Sports,31.81,4,Houston,55,1,0
+194,Clothing,151.68,9,Chicago,46,1,0
+195,Clothing,231.13,2,Chicago,32,1,0
+196,Electronics,67.32,5,Chicago,40,0,0
+197,Clothing,232.1,4,New York,40,0,0
+198,Electronics,428.06,9,New York,35,0,0
+199,Books,294.85,5,New York,63,0,0
+200,Books,48.68,9,New York,36,0,1
+201,Books,103.92,9,Phoenix,45,1,0
+202,Clothing,242.53,2,Los Angeles,43,0,0
+203,Clothing,187.13,9,Phoenix,27,1,0
+204,Electronics,185.78,3,Chicago,64,1,1
+205,Home,269.34,4,Phoenix,21,0,0
+206,Electronics,296.35,1,Houston,19,1,0
+207,Books,400.46,1,New York,20,0,1
+208,Electronics,177.07,1,Houston,24,0,0
+209,Home,404.68,9,Houston,33,1,1
+210,Clothing,175.92,8,Chicago,48,0,1
+211,Electronics,37.16,5,New York,27,0,0
+212,Books,281.55,5,Houston,36,1,1
+213,Books,298.07,9,Chicago,45,1,0
+214,Clothing,467.92,3,New York,34,1,0
+215,Electronics,365.77,3,Los Angeles,45,1,1
+216,Home,459.71,7,Chicago,36,1,1
+217,Clothing,455.09,9,Phoenix,54,1,0
+218,Electronics,306.24,6,New York,40,0,0
+219,Sports,268.6,2,Houston,37,0,1
+220,Books,283.15,1,Houston,30,0,0
+221,Home,489.38,2,Phoenix,30,1,0
+222,Home,388.85,1,Phoenix,60,0,0
+223,Home,62.07,9,Houston,28,1,1
+224,Books,391.43,8,New York,65,0,0
+225,Electronics,93.56,7,Chicago,32,1,0
+226,Clothing,229.2,3,Phoenix,34,0,0
+227,Electronics,113.13,8,Phoenix,67,1,1
+228,Clothing,347.9,2,Phoenix,45,1,1
+229,Home,439.88,2,Los Angeles,36,1,1
+230,Electronics,152.28,3,New York,21,1,0
+231,Home,50.19,7,New York,39,0,1
+232,Sports,156.26,1,New York,39,0,0
+233,Home,339.46,8,New York,54,1,1
+234,Home,171.09,7,New York,56,1,0
+235,Clothing,146.27,4,Houston,51,1,1
+236,Sports,100.37,5,Phoenix,50,0,0
+237,Home,253.78,1,Houston,61,1,0
+238,Home,145.21,4,Los Angeles,59,1,1
+239,Sports,368.2,1,Chicago,57,0,0
+240,Sports,47.54,1,Phoenix,50,1,1
+241,Electronics,335.38,1,Los Angeles,29,1,1
+242,Clothing,126.4,7,Houston,19,0,0
+243,Sports,249.75,7,Chicago,45,1,0
+244,Sports,150.18,4,Los Angeles,27,1,1
+245,Books,364.16,2,Chicago,39,0,1
+246,Sports,473.2,3,Los Angeles,34,1,1
+247,Clothing,459.37,8,Houston,43,0,0
+248,Home,295.88,8,Chicago,20,1,1
+249,Home,236.68,6,Los Angeles,24,1,0
+250,Home,410.97,9,Houston,61,1,0
+251,Home,344.83,9,Phoenix,25,1,1
+252,Books,99.95,4,Houston,37,1,1
+253,Sports,412.25,1,Houston,29,0,0
+254,Home,220.15,1,Phoenix,52,1,0
+255,Electronics,102.6,5,Houston,34,1,0
+256,Home,148.08,2,Phoenix,45,0,0
+257,Sports,141.09,6,Phoenix,58,0,1
+258,Home,264.41,7,Phoenix,27,1,0
+259,Books,124.84,1,Los Angeles,39,0,1
+260,Clothing,70.55,6,Chicago,55,1,1
+261,Clothing,70.61,8,Los Angeles,50,0,1
+262,Sports,295.81,5,Phoenix,39,0,0
+263,Clothing,370.03,7,Chicago,61,1,0
+264,Clothing,167.55,6,Chicago,54,0,1
+265,Electronics,26.98,4,Phoenix,30,1,1
+266,Sports,72.34,7,Chicago,44,0,1
+267,Sports,458.2,9,Chicago,32,0,1
+268,Clothing,251.84,7,Los Angeles,39,0,0
+269,Clothing,232.25,5,Chicago,47,1,1
+270,Clothing,28.64,7,Phoenix,60,1,0
+271,Books,367.03,3,New York,57,0,0
+272,Home,268.75,2,New York,54,1,0
+273,Books,109.02,5,New York,51,1,0
+274,Sports,63.94,4,Phoenix,61,1,1
+275,Electronics,197.86,5,New York,51,0,0
+276,Home,420.21,8,Los Angeles,65,1,1
+277,Electronics,433.99,4,Phoenix,52,0,0
+278,Sports,305.39,9,Phoenix,59,0,1
+279,Sports,366.49,7,Phoenix,36,0,1
+280,Electronics,66.43,7,Chicago,25,0,1
+281,Electronics,298.18,8,Chicago,56,0,1
+282,Electronics,336.81,6,Chicago,50,1,1
+283,Sports,108.35,8,Houston,61,1,0
+284,Clothing,441.28,3,Los Angeles,45,0,1
+285,Electronics,105.55,1,Phoenix,54,1,0
+286,Home,163.6,6,Phoenix,65,1,1
+287,Sports,314.07,1,Chicago,42,1,0
+288,Books,322.79,9,Phoenix,53,1,0
+289,Books,352.7,2,Phoenix,34,1,0
+290,Home,64.89,2,New York,41,1,1
+291,Clothing,426.24,7,Phoenix,38,1,0
+292,Electronics,271.1,2,Houston,19,0,1
+293,Sports,240.95,8,Chicago,48,0,1
+294,Electronics,490.74,6,Los Angeles,61,0,0
+295,Sports,372.79,7,Los Angeles,50,1,0
+296,Books,67.82,7,New York,47,1,1
+297,Electronics,380.7,6,Los Angeles,29,0,1
+298,Home,56.67,9,Los Angeles,61,1,1
+299,Clothing,23.46,9,Chicago,29,1,1
+300,Home,207.78,7,Chicago,68,0,1
+301,Clothing,496.85,9,Houston,66,0,1
+302,Electronics,95.69,3,New York,69,0,0
+303,Electronics,339.6,3,Los Angeles,41,1,1
+304,Clothing,94.96,1,Houston,41,1,1
+305,Books,365.15,5,New York,28,1,0
+306,Sports,257.62,4,Los Angeles,30,0,0
+307,Home,343.19,2,Los Angeles,44,0,0
+308,Home,109.41,9,Chicago,25,1,1
+309,Home,375.36,3,Phoenix,27,0,0
+310,Electronics,497.85,8,New York,25,0,0
+311,Home,336.17,6,Los Angeles,37,1,1
+312,Sports,251.81,5,New York,25,0,1
+313,Sports,462.36,1,Houston,26,0,1
+314,Clothing,17.77,4,Houston,24,0,1
+315,Electronics,367.66,3,Phoenix,31,1,0
+316,Sports,445.49,1,Los Angeles,45,1,1
+317,Books,40.22,5,Chicago,19,0,0
+318,Electronics,230.53,6,Los Angeles,60,1,1
+319,Electronics,110.31,2,New York,25,1,0
+320,Sports,287.59,3,Houston,30,1,1
+321,Books,328.28,6,New York,38,0,1
+322,Clothing,158.29,4,Phoenix,64,1,1
+323,Sports,235.39,9,Houston,45,0,0
+324,Books,146.88,5,Chicago,52,0,0
+325,Electronics,191.0,4,Houston,40,1,0
+326,Books,88.17,2,Los Angeles,63,0,1
+327,Electronics,443.92,6,Los Angeles,32,1,0
+328,Sports,14.91,2,Houston,19,1,1
+329,Sports,442.38,7,Phoenix,68,0,1
+330,Home,290.12,3,Los Angeles,29,0,1
+331,Home,172.51,9,Los Angeles,69,1,0
+332,Home,364.3,5,Chicago,53,1,1
+333,Sports,258.8,8,Houston,20,1,0
+334,Clothing,254.56,6,Los Angeles,22,1,1
+335,Sports,63.97,8,Phoenix,20,0,1
+336,Books,200.86,3,New York,64,0,1
+337,Sports,128.12,3,Houston,36,0,0
+338,Sports,17.69,5,Chicago,19,1,0
+339,Electronics,186.45,3,Los Angeles,61,0,1
+340,Electronics,54.01,8,Phoenix,54,0,0
+341,Electronics,135.85,8,Houston,34,0,0
+342,Sports,55.33,2,Phoenix,31,0,1
+343,Clothing,59.46,4,Phoenix,45,1,1
+344,Books,107.52,1,Chicago,44,0,0
+345,Books,499.93,4,Houston,27,0,1
+346,Clothing,11.07,4,Los Angeles,20,0,1
+347,Clothing,322.95,9,Chicago,53,0,0
+348,Books,79.21,3,Los Angeles,55,1,0
+349,Home,461.11,2,New York,42,1,1
+350,Electronics,55.88,9,Phoenix,39,0,0
+351,Electronics,477.98,9,New York,65,1,0
+352,Books,309.35,1,Phoenix,56,1,1
+353,Clothing,10.62,6,Chicago,64,1,1
+354,Home,448.06,8,Los Angeles,47,1,1
+355,Books,265.64,3,Los Angeles,38,0,1
+356,Electronics,138.71,9,Chicago,47,1,0
+357,Sports,385.97,2,Houston,45,1,0
+358,Clothing,464.07,6,New York,48,0,1
+359,Sports,247.01,1,New York,69,0,1
+360,Books,164.62,7,Los Angeles,43,0,1
+361,Electronics,396.58,3,Los Angeles,60,0,1
+362,Home,344.07,7,Los Angeles,39,1,0
+363,Sports,445.49,4,Chicago,38,0,0
+364,Home,349.33,9,Houston,18,1,1
+365,Electronics,129.33,5,New York,54,1,1
+366,Sports,466.51,3,Phoenix,30,0,0
+367,Home,61.37,8,Chicago,38,0,0
+368,Home,141.29,6,New York,63,1,0
+369,Sports,264.9,2,Houston,26,1,0
+370,Electronics,287.21,3,Chicago,34,0,1
+371,Home,17.5,8,New York,64,0,0
+372,Books,392.48,7,Chicago,38,0,0
+373,Sports,187.19,6,New York,48,1,0
+374,Clothing,209.15,1,New York,56,1,1
+375,Clothing,406.59,9,Houston,39,0,1
+376,Electronics,195.85,3,Phoenix,29,1,0
+377,Books,33.14,5,Houston,23,0,0
+378,Home,96.46,7,New York,33,1,1
+379,Clothing,478.39,7,Chicago,43,1,1
+380,Electronics,44.5,3,Houston,22,0,0
+381,Books,183.92,4,Phoenix,26,0,1
+382,Books,256.56,7,New York,63,0,0
+383,Electronics,251.71,8,Houston,57,1,1
+384,Electronics,11.94,2,Houston,31,1,0
+385,Home,255.57,9,Houston,61,0,0
+386,Electronics,198.05,7,Houston,59,1,1
+387,Home,486.32,8,Chicago,47,0,0
+388,Home,87.99,6,Phoenix,69,1,1
+389,Sports,183.54,6,Phoenix,69,0,1
+390,Books,215.55,9,New York,43,1,1
+391,Books,201.44,4,Los Angeles,62,1,0
+392,Books,336.26,5,Chicago,46,1,0
+393,Sports,115.6,9,New York,36,1,0
+394,Home,118.33,1,New York,64,0,1
+395,Home,367.31,4,Houston,25,1,0
+396,Electronics,255.14,7,Los Angeles,40,0,0
+397,Sports,213.43,9,Los Angeles,59,0,0
+398,Electronics,92.91,6,Chicago,52,0,0
+399,Sports,101.89,8,Los Angeles,48,0,1
+400,Electronics,15.17,9,New York,52,1,0
+401,Clothing,54.8,4,Los Angeles,49,0,1
+402,Books,282.85,1,Los Angeles,22,1,1
+403,Books,447.02,8,Phoenix,33,1,1
+404,Home,150.71,2,New York,34,1,1
+405,Clothing,170.6,1,Los Angeles,49,1,0
+406,Books,66.65,7,Los Angeles,55,0,0
+407,Home,200.43,9,Houston,49,1,0
+408,Clothing,28.24,9,Los Angeles,69,0,1
+409,Books,459.62,3,Los Angeles,37,1,0
+410,Electronics,339.82,6,Phoenix,65,1,1
+411,Sports,495.47,7,New York,19,0,0
+412,Clothing,442.58,9,Chicago,37,1,0
+413,Home,241.77,2,New York,64,1,0
+414,Clothing,264.65,8,Houston,35,1,1
+415,Home,103.38,7,New York,18,1,0
+416,Clothing,236.4,4,Los Angeles,46,1,1
+417,Home,452.48,2,Houston,46,0,1
+418,Books,34.92,8,New York,36,1,1
+419,Electronics,433.14,5,Houston,61,1,0
+420,Books,177.06,6,Chicago,57,0,0
+421,Electronics,450.76,7,New York,23,1,1
+422,Books,471.03,1,Los Angeles,61,0,1
+423,Books,338.72,8,Houston,56,1,1
+424,Clothing,335.57,4,Phoenix,67,1,1
+425,Sports,231.85,9,Houston,63,0,1
+426,Home,419.41,1,Phoenix,25,1,0
+427,Home,481.19,2,Los Angeles,41,1,0
+428,Home,389.79,6,Chicago,37,0,0
+429,Electronics,314.75,1,Phoenix,31,0,1
+430,Home,307.33,4,Chicago,22,1,1
+431,Home,426.24,8,Houston,58,0,0
+432,Clothing,275.19,5,Los Angeles,57,1,0
+433,Books,403.89,9,Phoenix,51,0,1
+434,Home,259.35,6,Houston,33,1,1
+435,Sports,40.6,1,New York,62,0,1
+436,Home,198.13,6,Houston,24,0,0
+437,Electronics,227.78,6,Chicago,33,0,1
+438,Electronics,79.39,6,Los Angeles,24,0,1
+439,Electronics,60.22,8,Los Angeles,44,0,1
+440,Home,272.38,6,Houston,31,0,0
+441,Clothing,51.72,5,New York,31,0,1
+442,Sports,158.44,2,Chicago,61,0,0
+443,Home,374.85,4,Houston,50,0,1
+444,Clothing,482.57,5,Houston,50,1,1
+445,Clothing,361.76,4,Los Angeles,61,0,0
+446,Home,496.39,2,Chicago,37,1,1
+447,Home,352.19,7,New York,64,0,0
+448,Clothing,153.96,2,Los Angeles,53,1,1
+449,Clothing,339.31,1,Houston,24,1,0
+450,Clothing,354.06,5,Los Angeles,49,0,1
+451,Home,192.15,1,Los Angeles,65,0,0
+452,Clothing,18.68,1,Phoenix,20,1,0
+453,Electronics,354.57,1,Los Angeles,56,1,1
+454,Home,20.63,6,Los Angeles,46,0,0
+455,Electronics,319.28,9,Chicago,41,0,1
+456,Books,90.17,1,Los Angeles,39,0,0
+457,Home,287.15,5,New York,23,1,1
+458,Books,256.92,9,Houston,65,0,1
+459,Clothing,16.62,9,Chicago,41,0,1
+460,Clothing,187.8,1,Los Angeles,57,0,1
+461,Sports,304.53,8,New York,40,0,0
+462,Clothing,425.82,1,Houston,55,0,1
+463,Books,445.43,8,Chicago,27,1,1
+464,Clothing,247.09,1,New York,33,1,1
+465,Home,366.93,5,Los Angeles,28,0,1
+466,Clothing,165.06,8,Phoenix,49,0,1
+467,Sports,177.67,6,Phoenix,62,1,0
+468,Clothing,105.29,9,Chicago,23,0,1
+469,Books,285.35,1,New York,41,1,0
+470,Books,164.14,9,Houston,50,0,0
+471,Clothing,51.34,1,New York,68,1,1
+472,Books,345.65,3,Phoenix,29,1,1
+473,Books,356.8,1,Chicago,44,0,0
+474,Sports,186.4,3,Los Angeles,55,1,0
+475,Home,47.59,2,New York,35,0,0
+476,Sports,218.89,2,Phoenix,62,1,1
+477,Electronics,226.74,9,Houston,56,0,0
+478,Sports,337.65,8,Chicago,30,0,0
+479,Clothing,164.55,1,Los Angeles,57,0,1
+480,Home,344.47,4,New York,47,1,0
+481,Clothing,437.03,1,Houston,66,0,1
+482,Electronics,126.37,1,Los Angeles,58,0,0
+483,Home,489.67,4,Phoenix,69,0,1
+484,Books,199.32,2,Phoenix,30,1,0
+485,Sports,140.96,3,Houston,51,0,1
+486,Clothing,216.54,9,Phoenix,53,1,1
+487,Electronics,56.25,2,Chicago,47,1,0
+488,Books,71.6,4,Houston,42,1,1
+489,Sports,213.07,1,Phoenix,19,0,0
+490,Books,383.6,2,New York,53,0,1
+491,Sports,451.15,5,Phoenix,35,1,1
+492,Home,335.76,1,Chicago,22,0,1
+493,Books,61.56,7,Los Angeles,36,0,1
+494,Books,339.29,4,Los Angeles,59,1,1
+495,Books,321.36,6,Phoenix,35,1,1
+496,Home,404.82,8,Los Angeles,49,0,1
+497,Electronics,414.37,6,Phoenix,38,1,0
+498,Sports,435.42,2,Chicago,27,0,0
+499,Books,212.92,1,Los Angeles,54,1,1
+500,Home,351.95,8,New York,66,0,1
+501,Electronics,141.44,8,Phoenix,39,0,1
+502,Sports,499.67,9,Los Angeles,30,1,0
+503,Home,95.91,6,Chicago,34,0,1
+504,Sports,14.96,1,Chicago,26,0,0
+505,Books,82.92,9,New York,41,1,1
+506,Electronics,390.18,3,Chicago,61,0,1
+507,Home,228.92,6,Chicago,31,0,1
+508,Electronics,229.28,9,Los Angeles,63,0,1
+509,Books,477.96,3,Phoenix,25,1,1
+510,Electronics,460.62,5,Houston,54,1,0
+511,Electronics,162.49,5,Chicago,36,1,1
+512,Clothing,112.44,7,Chicago,45,1,0
+513,Electronics,425.76,4,Houston,63,1,0
+514,Sports,453.95,4,Chicago,58,0,1
+515,Home,275.38,7,Los Angeles,47,0,1
+516,Clothing,318.42,9,Los Angeles,24,0,1
+517,Home,135.89,4,Houston,43,1,0
+518,Home,402.39,4,Chicago,57,0,0
+519,Books,319.74,6,Chicago,63,1,0
+520,Books,256.72,6,Phoenix,63,0,1
+521,Clothing,39.45,7,Chicago,28,1,0
+522,Books,458.81,1,Los Angeles,31,0,0
+523,Books,311.57,3,New York,38,0,0
+524,Books,104.42,9,New York,25,1,1
+525,Home,307.13,6,New York,20,0,0
+526,Clothing,341.96,6,New York,45,0,0
+527,Home,267.63,5,Chicago,46,1,1
+528,Sports,361.87,3,Chicago,40,0,1
+529,Home,294.91,5,Phoenix,35,0,1
+530,Sports,474.41,1,Chicago,52,1,0
+531,Electronics,36.31,3,New York,30,1,0
+532,Electronics,62.06,4,Houston,29,1,0
+533,Sports,95.1,5,Houston,64,1,1
+534,Sports,348.18,9,Los Angeles,67,1,0
+535,Home,326.34,4,Los Angeles,22,0,1
+536,Sports,447.11,3,Chicago,56,1,1
+537,Clothing,369.11,1,Houston,28,1,0
+538,Electronics,259.09,6,New York,28,0,0
+539,Electronics,496.0,7,New York,64,0,0
+540,Sports,140.39,8,New York,59,0,1
+541,Books,418.26,1,Chicago,64,0,1
+542,Books,219.13,4,Chicago,48,0,0
+543,Sports,327.88,5,Phoenix,48,1,1
+544,Clothing,366.36,2,New York,30,0,0
+545,Books,320.54,1,New York,31,1,0
+546,Sports,78.85,8,Chicago,66,0,0
+547,Clothing,227.05,6,Chicago,62,1,1
+548,Clothing,285.1,5,Phoenix,59,0,1
+549,Home,426.03,9,Phoenix,42,1,0
+550,Clothing,227.39,2,Los Angeles,50,1,0
+551,Books,460.19,8,Houston,50,1,1
+552,Books,225.78,9,New York,32,1,0
+553,Sports,278.9,1,New York,33,1,1
+554,Sports,400.18,7,Phoenix,61,1,0
+555,Clothing,295.7,8,Phoenix,55,1,1
+556,Electronics,480.51,3,Los Angeles,23,1,0
+557,Home,333.56,4,Houston,61,1,1
+558,Electronics,266.13,3,Los Angeles,42,1,0
+559,Clothing,21.56,7,Houston,32,0,1
+560,Clothing,212.73,9,New York,21,1,1
+561,Electronics,156.63,3,Los Angeles,21,1,1
+562,Home,376.57,6,Phoenix,47,0,1
+563,Electronics,112.06,8,Los Angeles,51,1,0
+564,Sports,110.56,6,Los Angeles,44,1,1
+565,Books,102.86,2,New York,48,0,1
+566,Sports,71.55,7,Phoenix,49,0,0
+567,Books,162.39,2,Phoenix,61,1,1
+568,Clothing,444.1,2,Chicago,56,0,0
+569,Home,389.71,2,Chicago,69,1,1
+570,Electronics,370.27,1,Chicago,26,1,1
+571,Home,400.7,1,New York,58,1,1
+572,Electronics,142.01,7,Los Angeles,25,0,1
+573,Sports,444.85,5,Phoenix,31,1,1
+574,Sports,77.28,3,Phoenix,50,1,1
+575,Electronics,174.81,1,Los Angeles,40,0,0
+576,Home,297.51,6,Phoenix,38,1,0
+577,Electronics,60.42,1,Los Angeles,29,1,1
+578,Clothing,367.76,9,New York,19,1,1
+579,Sports,199.75,2,New York,30,1,0
+580,Clothing,394.36,1,New York,21,1,0
+581,Sports,251.52,7,Los Angeles,37,1,1
+582,Sports,98.63,6,Los Angeles,67,0,1
+583,Books,370.03,6,Houston,68,1,1
+584,Clothing,133.55,5,Phoenix,65,1,1
+585,Clothing,250.5,4,Phoenix,31,0,1
+586,Books,47.01,4,Houston,47,1,1
+587,Home,312.75,3,Houston,46,1,0
+588,Clothing,336.27,8,New York,25,0,1
+589,Electronics,195.55,7,Houston,29,0,1
+590,Books,477.67,9,Los Angeles,58,0,0
+591,Clothing,438.34,1,Chicago,55,0,0
+592,Home,356.89,7,Los Angeles,43,0,0
+593,Clothing,359.69,4,Houston,67,0,0
+594,Sports,133.68,7,Phoenix,19,0,1
+595,Electronics,331.84,1,Los Angeles,57,1,0
+596,Books,107.12,5,Phoenix,31,1,0
+597,Sports,80.56,3,Los Angeles,23,1,1
+598,Home,499.74,5,Phoenix,59,0,0
+599,Sports,314.96,4,Los Angeles,57,1,0
+600,Sports,221.18,2,Phoenix,48,0,1
+601,Home,151.2,4,Chicago,34,1,1
+602,Sports,305.92,3,New York,42,1,1
+603,Books,34.3,1,Los Angeles,49,1,1
+604,Clothing,56.39,8,Chicago,29,1,1
+605,Sports,26.1,5,New York,66,0,1
+606,Books,254.59,4,Los Angeles,30,0,1
+607,Clothing,304.3,5,Chicago,36,1,0
+608,Clothing,40.62,4,Chicago,61,0,0
+609,Sports,363.4,3,Chicago,65,0,1
+610,Books,122.89,5,Houston,42,1,0
+611,Sports,345.75,4,Phoenix,48,0,1
+612,Home,491.13,1,New York,54,0,0
+613,Clothing,348.64,3,Phoenix,42,0,1
+614,Sports,442.76,8,Phoenix,33,0,0
+615,Clothing,474.62,7,Phoenix,55,1,1
+616,Books,248.51,2,Chicago,60,1,0
+617,Electronics,354.14,1,Phoenix,66,0,1
+618,Sports,427.46,3,Houston,40,1,0
+619,Sports,184.74,5,Los Angeles,31,1,0
+620,Clothing,138.08,1,Chicago,23,1,1
+621,Books,473.83,3,New York,42,0,0
+622,Home,365.89,3,Los Angeles,40,0,0
+623,Books,117.64,5,Los Angeles,60,1,0
+624,Sports,230.05,3,Los Angeles,29,1,0
+625,Home,400.26,9,Phoenix,30,0,0
+626,Books,278.06,1,Phoenix,53,1,1
+627,Electronics,328.48,4,Chicago,56,0,1
+628,Clothing,379.35,4,Phoenix,51,1,0
+629,Books,314.78,1,Phoenix,23,0,1
+630,Books,274.64,2,Phoenix,55,0,0
+631,Electronics,377.31,1,Chicago,67,0,1
+632,Sports,366.51,6,Chicago,69,0,0
+633,Clothing,318.64,3,Houston,57,1,0
+634,Books,186.3,7,Houston,25,0,0
+635,Home,208.85,5,Houston,25,1,0
+636,Books,485.51,9,Houston,57,0,1
+637,Clothing,65.07,7,Los Angeles,50,0,1
+638,Books,141.57,4,Los Angeles,51,1,1
+639,Electronics,251.28,5,Houston,61,1,0
+640,Books,420.0,5,Houston,32,1,1
+641,Books,90.2,5,New York,53,0,1
+642,Home,145.71,9,Los Angeles,52,0,0
+643,Electronics,42.24,3,New York,63,1,0
+644,Electronics,355.93,6,New York,39,0,0
+645,Books,126.72,8,Phoenix,40,1,1
+646,Home,200.45,9,Chicago,57,0,1
+647,Books,227.41,7,Los Angeles,62,0,0
+648,Books,446.74,3,Houston,68,0,1
+649,Clothing,211.55,1,Houston,39,1,0
+650,Clothing,81.16,4,Chicago,22,0,1
+651,Home,266.91,6,Los Angeles,48,1,0
+652,Sports,481.85,3,Houston,30,1,1
+653,Clothing,307.77,1,Houston,45,0,1
+654,Sports,491.86,6,Phoenix,37,1,1
+655,Electronics,422.14,1,New York,50,1,0
+656,Clothing,27.62,9,Houston,33,0,0
+657,Clothing,332.62,1,Los Angeles,46,1,0
+658,Home,150.52,6,Chicago,40,1,1
+659,Sports,284.21,1,Phoenix,41,0,0
+660,Clothing,146.88,7,Los Angeles,51,0,1
+661,Clothing,180.95,3,Phoenix,24,0,0
+662,Home,462.35,6,New York,55,1,0
+663,Home,111.26,7,Houston,54,1,1
+664,Sports,438.31,1,Los Angeles,21,0,1
+665,Electronics,24.92,1,Chicago,51,1,0
+666,Electronics,54.53,5,New York,59,0,0
+667,Books,428.79,6,New York,39,0,1
+668,Clothing,318.97,9,Phoenix,22,0,1
+669,Sports,376.15,1,New York,67,1,0
+670,Clothing,112.61,4,Los Angeles,59,1,1
+671,Sports,273.17,8,Phoenix,40,0,0
+672,Sports,371.24,9,New York,32,0,0
+673,Sports,317.38,3,Chicago,48,1,0
+674,Clothing,241.13,2,Los Angeles,26,0,1
+675,Home,480.29,4,Chicago,60,1,0
+676,Clothing,341.32,2,Chicago,42,0,0
+677,Sports,454.8,1,Phoenix,42,0,1
+678,Books,367.59,3,Houston,66,1,1
+679,Electronics,370.38,7,Phoenix,38,1,1
+680,Sports,49.21,1,Los Angeles,26,1,0
+681,Books,186.14,2,Los Angeles,65,1,1
+682,Home,430.6,1,Phoenix,55,1,1
+683,Sports,123.98,8,Houston,39,0,0
+684,Books,66.6,5,Phoenix,60,0,0
+685,Sports,169.79,8,Los Angeles,40,1,0
+686,Clothing,118.01,3,Houston,66,1,0
+687,Books,463.39,7,Los Angeles,21,0,1
+688,Clothing,435.3,8,Houston,46,0,0
+689,Clothing,254.84,6,Houston,32,1,1
+690,Books,40.06,7,Phoenix,18,1,0
+691,Electronics,360.14,2,Phoenix,47,0,0
+692,Books,315.47,8,Phoenix,46,1,1
+693,Electronics,485.57,5,Houston,37,0,1
+694,Sports,283.89,7,Houston,50,0,1
+695,Sports,174.83,1,Los Angeles,58,1,0
+696,Books,264.32,5,Chicago,61,0,0
+697,Sports,489.84,1,Phoenix,53,0,1
+698,Home,351.22,8,Los Angeles,39,0,1
+699,Clothing,339.27,4,Los Angeles,30,1,0
+700,Clothing,127.93,4,New York,24,0,1
+701,Electronics,374.37,2,Phoenix,25,1,1
+702,Sports,377.63,5,Los Angeles,45,0,0
+703,Electronics,165.47,1,New York,62,0,1
+704,Clothing,247.02,9,Phoenix,60,0,0
+705,Clothing,154.36,5,Houston,26,0,0
+706,Sports,136.77,6,New York,42,0,0
+707,Home,22.69,2,Houston,33,1,1
+708,Home,149.75,1,Chicago,27,1,1
+709,Sports,281.45,4,Chicago,28,0,1
+710,Sports,10.78,7,Chicago,48,1,1
+711,Electronics,148.78,6,Chicago,29,1,0
+712,Sports,441.89,1,Los Angeles,48,0,0
+713,Home,300.89,1,Chicago,31,1,1
+714,Sports,307.85,8,Los Angeles,68,1,1
+715,Electronics,207.65,4,Los Angeles,61,1,1
+716,Electronics,341.47,5,Phoenix,49,1,1
+717,Electronics,103.07,7,Los Angeles,67,0,0
+718,Electronics,411.19,8,Los Angeles,34,1,1
+719,Books,67.18,7,Chicago,52,0,0
+720,Sports,331.44,2,Los Angeles,18,0,1
+721,Clothing,177.16,4,Houston,46,1,1
+722,Sports,376.28,1,Chicago,68,0,1
+723,Books,279.38,9,New York,21,1,0
+724,Electronics,231.65,3,Chicago,40,0,1
+725,Books,93.02,3,Los Angeles,45,1,0
+726,Home,322.04,9,Houston,33,1,0
+727,Home,487.64,3,Chicago,29,0,1
+728,Sports,414.55,8,Houston,38,1,0
+729,Sports,39.4,2,New York,62,1,0
+730,Clothing,194.35,3,New York,34,1,0
+731,Clothing,463.54,2,Phoenix,57,1,1
+732,Home,256.49,1,Phoenix,30,0,0
+733,Electronics,334.43,2,Chicago,69,0,0
+734,Books,457.17,8,Phoenix,49,0,1
+735,Clothing,438.16,9,Houston,54,1,1
+736,Clothing,255.89,2,Phoenix,67,0,0
+737,Electronics,224.45,7,Houston,32,1,0
+738,Electronics,176.45,5,Phoenix,29,1,0
+739,Sports,362.32,3,Phoenix,66,1,0
+740,Books,150.62,9,Phoenix,32,0,1
+741,Electronics,132.44,6,Los Angeles,51,0,1
+742,Clothing,184.56,1,Los Angeles,23,0,0
+743,Clothing,96.84,5,Phoenix,34,0,1
+744,Home,350.61,7,Houston,65,1,0
+745,Electronics,311.96,4,Chicago,66,0,1
+746,Sports,246.61,8,New York,37,0,1
+747,Books,201.26,5,Los Angeles,26,0,0
+748,Sports,455.44,9,Phoenix,22,0,0
+749,Clothing,24.27,9,New York,40,1,0
+750,Sports,386.86,9,Los Angeles,50,0,0
+751,Clothing,451.94,1,Chicago,55,0,1
+752,Clothing,228.71,2,Houston,31,0,1
+753,Clothing,279.84,3,Phoenix,34,1,0
+754,Clothing,472.79,4,Chicago,36,0,1
+755,Clothing,114.02,9,Los Angeles,50,0,1
+756,Home,264.87,6,Phoenix,18,0,0
+757,Sports,242.61,1,New York,30,1,0
+758,Home,136.61,9,Houston,63,1,1
+759,Home,411.11,6,Los Angeles,44,0,0
+760,Electronics,450.8,4,Houston,23,0,0
+761,Electronics,393.15,4,Phoenix,23,1,1
+762,Electronics,105.73,3,Chicago,50,1,1
+763,Books,52.51,7,Houston,47,1,0
+764,Electronics,306.67,3,New York,63,1,1
+765,Sports,37.98,2,Los Angeles,52,1,0
+766,Home,339.68,8,New York,40,0,0
+767,Sports,269.91,4,Houston,27,0,1
+768,Electronics,334.77,8,Chicago,68,0,1
+769,Books,299.18,1,Chicago,36,0,0
+770,Books,217.12,5,New York,68,1,0
+771,Home,108.43,9,Phoenix,45,1,0
+772,Sports,159.79,1,Phoenix,40,1,1
+773,Clothing,267.01,4,Chicago,21,1,0
+774,Sports,329.42,6,New York,37,1,1
+775,Electronics,391.95,8,New York,36,0,0
+776,Clothing,385.91,3,New York,59,0,1
+777,Books,486.62,5,Houston,44,0,0
+778,Home,150.06,7,Phoenix,51,0,1
+779,Home,44.84,1,Phoenix,21,0,0
+780,Books,179.37,7,Houston,55,1,0
+781,Electronics,374.21,8,Los Angeles,24,1,0
+782,Books,224.67,8,Houston,65,1,0
+783,Electronics,410.72,9,New York,24,1,1
+784,Clothing,279.17,6,Houston,67,1,1
+785,Books,465.6,6,New York,69,0,1
+786,Electronics,474.45,2,Chicago,43,0,1
+787,Clothing,43.96,3,New York,43,0,1
+788,Books,233.64,4,Phoenix,36,1,0
+789,Home,308.75,4,Houston,26,1,1
+790,Books,135.38,8,New York,37,1,1
+791,Sports,209.47,1,Los Angeles,59,1,1
+792,Books,342.06,4,Chicago,62,0,1
+793,Sports,121.1,4,Los Angeles,67,1,0
+794,Clothing,304.97,1,Los Angeles,33,0,0
+795,Books,351.75,3,Los Angeles,34,1,0
+796,Clothing,54.34,5,Chicago,39,0,0
+797,Clothing,253.79,6,Chicago,30,1,1
+798,Electronics,138.91,9,Chicago,29,1,1
+799,Clothing,364.95,9,Chicago,27,0,0
+800,Clothing,102.88,9,Los Angeles,18,0,0
+801,Books,447.2,1,Phoenix,49,1,1
+802,Books,221.16,9,Phoenix,47,0,1
+803,Home,107.02,8,Chicago,25,1,0
+804,Electronics,224.63,2,Houston,38,1,0
+805,Clothing,210.28,1,New York,39,0,0
+806,Electronics,220.17,1,Houston,35,1,0
+807,Sports,296.93,6,Houston,19,1,1
+808,Clothing,265.38,9,Houston,65,0,1
+809,Electronics,83.39,7,Phoenix,61,1,1
+810,Home,42.13,5,New York,26,1,0
+811,Home,367.41,2,Houston,20,1,1
+812,Clothing,284.26,1,Chicago,43,1,1
+813,Sports,185.91,2,Phoenix,38,0,0
+814,Home,406.1,1,Chicago,47,0,0
+815,Home,200.15,3,Chicago,45,0,0
+816,Sports,400.02,6,Houston,53,1,0
+817,Electronics,159.82,8,Chicago,43,0,0
+818,Home,45.69,3,New York,51,0,0
+819,Books,466.99,9,Chicago,25,0,1
+820,Home,203.33,5,Houston,27,1,1
+821,Electronics,398.42,7,Chicago,65,0,1
+822,Electronics,146.78,8,Phoenix,60,0,1
+823,Clothing,326.72,3,Phoenix,67,1,1
+824,Books,437.92,2,Phoenix,31,1,1
+825,Electronics,30.41,2,Los Angeles,57,1,0
+826,Sports,417.01,5,Phoenix,32,1,0
+827,Books,289.95,1,Phoenix,34,1,0
+828,Books,307.66,2,Los Angeles,35,1,1
+829,Sports,266.35,9,Phoenix,49,0,1
+830,Home,438.49,7,Houston,55,0,0
+831,Sports,31.28,6,Phoenix,40,1,0
+832,Sports,137.9,9,Phoenix,63,1,0
+833,Home,439.12,7,Los Angeles,40,0,0
+834,Home,378.65,5,Houston,52,1,0
+835,Home,18.65,9,Chicago,56,1,1
+836,Home,263.33,6,New York,32,0,1
+837,Home,269.49,6,Houston,41,1,1
+838,Sports,206.43,4,Chicago,45,1,0
+839,Clothing,155.72,1,Houston,33,0,1
+840,Clothing,344.05,5,Chicago,33,0,0
+841,Electronics,111.82,9,Chicago,57,0,1
+842,Clothing,401.48,8,Houston,56,0,0
+843,Clothing,403.49,8,Los Angeles,23,0,0
+844,Sports,213.48,5,Houston,19,1,1
+845,Home,148.94,9,Houston,30,1,1
+846,Home,149.1,3,Chicago,61,1,1
+847,Sports,246.32,3,New York,64,1,1
+848,Clothing,362.59,1,Chicago,26,1,1
+849,Sports,185.85,9,Phoenix,51,0,0
+850,Electronics,308.92,6,Houston,34,1,1
+851,Home,197.42,2,Houston,44,1,1
+852,Books,159.22,8,Los Angeles,46,1,0
+853,Electronics,22.18,9,Chicago,54,1,1
+854,Electronics,11.92,9,Los Angeles,60,1,0
+855,Sports,121.33,2,Houston,39,0,1
+856,Clothing,209.14,2,Chicago,68,1,1
+857,Home,427.12,7,Chicago,41,1,0
+858,Books,401.26,4,Phoenix,24,1,1
+859,Electronics,140.91,1,Phoenix,51,1,1
+860,Books,129.82,8,New York,65,1,1
+861,Clothing,121.39,2,Phoenix,29,1,1
+862,Clothing,176.23,3,Chicago,40,0,0
+863,Books,254.12,5,Phoenix,32,1,0
+864,Home,224.95,3,New York,50,0,1
+865,Clothing,116.95,7,Houston,30,0,1
+866,Books,73.92,7,Phoenix,40,1,0
+867,Electronics,16.16,2,Chicago,55,1,0
+868,Books,85.44,7,Houston,49,1,1
+869,Books,355.62,6,Chicago,62,0,0
+870,Sports,129.38,9,Houston,67,1,0
+871,Clothing,239.61,9,Chicago,52,1,0
+872,Home,299.74,2,Phoenix,18,1,0
+873,Home,444.55,7,Phoenix,64,0,1
+874,Sports,445.54,5,New York,62,0,0
+875,Home,375.41,6,Houston,22,1,1
+876,Books,27.23,1,New York,30,0,1
+877,Sports,291.78,7,Los Angeles,22,1,0
+878,Electronics,395.43,6,Phoenix,49,0,1
+879,Clothing,18.47,4,Houston,68,1,1
+880,Clothing,279.35,1,New York,38,0,0
+881,Clothing,430.3,9,New York,41,1,0
+882,Books,242.31,4,Los Angeles,35,1,0
+883,Electronics,12.01,2,New York,38,0,1
+884,Sports,15.4,8,Chicago,27,0,1
+885,Sports,214.15,2,Phoenix,41,0,1
+886,Clothing,85.95,5,New York,57,0,1
+887,Electronics,335.58,6,New York,64,0,0
+888,Electronics,357.31,8,Los Angeles,38,1,1
+889,Electronics,97.16,1,Chicago,42,1,0
+890,Home,445.38,1,New York,69,0,0
+891,Home,226.53,4,Phoenix,40,1,0
+892,Clothing,79.99,5,Phoenix,39,1,0
+893,Electronics,384.48,9,New York,21,0,1
+894,Electronics,397.09,7,Chicago,51,1,0
+895,Sports,323.25,7,Phoenix,23,1,1
+896,Sports,428.2,8,Phoenix,45,0,0
+897,Clothing,371.31,5,Chicago,48,0,0
+898,Electronics,442.28,5,Chicago,52,1,0
+899,Clothing,222.61,1,New York,56,0,1
+900,Sports,376.32,9,Houston,59,1,0
+901,Sports,499.88,6,Los Angeles,40,0,0
+902,Home,365.22,9,Houston,23,0,0
+903,Clothing,65.95,3,Houston,33,0,0
+904,Clothing,263.98,5,Phoenix,19,0,1
+905,Electronics,297.8,2,Chicago,41,1,1
+906,Electronics,95.36,5,Phoenix,34,0,0
+907,Home,481.82,8,Los Angeles,62,0,0
+908,Books,96.03,2,New York,18,1,1
+909,Books,97.0,8,Los Angeles,23,1,1
+910,Books,458.43,4,Phoenix,22,1,1
+911,Clothing,237.95,1,Phoenix,62,1,0
+912,Clothing,40.96,5,Phoenix,67,0,1
+913,Sports,303.11,1,Phoenix,46,1,0
+914,Clothing,304.89,7,Houston,29,0,1
+915,Clothing,41.61,8,New York,56,1,1
+916,Clothing,486.54,3,Houston,64,0,0
+917,Home,276.57,3,Phoenix,20,1,1
+918,Clothing,284.3,7,Chicago,65,0,0
+919,Electronics,264.86,4,Houston,18,0,1
+920,Electronics,309.26,3,Phoenix,44,1,0
+921,Sports,139.51,8,Phoenix,65,0,1
+922,Home,150.75,3,New York,41,0,1
+923,Electronics,260.56,7,Los Angeles,61,0,0
+924,Home,405.28,2,Houston,36,0,0
+925,Home,34.43,1,Houston,25,1,0
+926,Sports,305.67,6,Houston,61,0,0
+927,Home,405.32,8,Phoenix,64,0,1
+928,Clothing,86.89,1,New York,19,1,1
+929,Home,17.36,9,Phoenix,47,1,1
+930,Sports,163.23,3,Phoenix,47,1,1
+931,Sports,298.19,3,Chicago,66,0,1
+932,Sports,77.76,4,New York,56,0,1
+933,Electronics,218.8,1,Houston,62,1,0
+934,Clothing,280.64,9,Los Angeles,49,0,1
+935,Electronics,303.45,3,Houston,18,1,1
+936,Books,144.46,4,Phoenix,55,0,0
+937,Clothing,206.01,1,New York,30,1,1
+938,Home,391.39,4,New York,28,0,1
+939,Sports,471.2,1,New York,27,1,1
+940,Books,432.32,5,Chicago,65,0,0
+941,Clothing,286.5,5,Houston,43,1,0
+942,Electronics,211.04,7,Chicago,37,0,1
+943,Sports,173.15,8,Los Angeles,34,0,0
+944,Electronics,71.23,4,Phoenix,34,0,1
+945,Clothing,62.21,7,Chicago,21,1,1
+946,Clothing,347.3,4,Chicago,22,0,1
+947,Books,137.3,3,Phoenix,40,0,0
+948,Home,134.78,6,New York,63,0,1
+949,Electronics,499.12,4,Phoenix,69,1,1
+950,Books,102.08,3,Houston,27,0,1
+951,Sports,82.55,9,Phoenix,63,1,1
+952,Home,58.36,5,New York,45,0,1
+953,Books,294.1,7,Phoenix,50,1,0
+954,Electronics,317.65,6,Chicago,60,1,1
+955,Clothing,188.96,5,Los Angeles,43,0,0
+956,Sports,272.35,7,Chicago,67,1,1
+957,Electronics,396.32,6,Los Angeles,65,1,0
+958,Home,410.87,2,Phoenix,46,0,1
+959,Home,479.38,3,Houston,44,1,1
+960,Clothing,413.89,2,Phoenix,35,1,0
+961,Clothing,286.77,3,New York,57,1,0
+962,Sports,98.03,1,Phoenix,27,1,1
+963,Sports,58.88,8,Los Angeles,59,0,0
+964,Clothing,36.71,6,Chicago,22,1,0
+965,Clothing,336.6,2,Houston,27,1,1
+966,Home,405.69,8,Phoenix,67,0,1
+967,Clothing,259.26,6,Phoenix,38,0,1
+968,Books,36.81,7,Chicago,41,1,1
+969,Electronics,272.38,1,Houston,55,0,1
+970,Clothing,468.52,7,Phoenix,20,0,0
+971,Sports,302.83,3,Phoenix,57,0,1
+972,Books,406.62,8,Los Angeles,48,0,0
+973,Sports,402.07,6,Los Angeles,58,0,1
+974,Books,466.74,4,New York,54,0,1
+975,Clothing,387.41,8,Chicago,19,0,0
+976,Electronics,376.37,9,Houston,19,0,1
+977,Sports,124.71,2,Phoenix,56,0,0
+978,Books,39.36,6,Phoenix,66,1,0
+979,Home,263.62,5,New York,59,1,0
+980,Clothing,70.97,5,Phoenix,61,1,1
+981,Electronics,481.48,3,Chicago,51,1,1
+982,Clothing,152.06,8,New York,59,1,1
+983,Home,427.94,8,Chicago,37,0,1
+984,Electronics,199.94,5,New York,50,0,1
+985,Home,168.37,8,Phoenix,21,1,1
+986,Clothing,468.23,8,New York,62,1,0
+987,Books,188.03,3,Los Angeles,61,0,1
+988,Clothing,201.24,2,Houston,28,1,1
+989,Clothing,61.98,9,Phoenix,59,0,1
+990,Clothing,338.52,2,Houston,64,1,1
+991,Sports,151.53,9,Phoenix,22,0,0
+992,Home,296.95,4,Houston,42,1,0
+993,Home,299.76,2,Los Angeles,66,0,0
+994,Home,362.41,1,Houston,54,1,0
+995,Sports,375.17,4,New York,51,1,0
+996,Books,262.08,9,Houston,26,0,1
+997,Clothing,172.19,9,Phoenix,23,0,0
+998,Books,420.35,4,Chicago,35,1,0
+999,Sports,161.83,9,Houston,31,1,1
+1000,Home,258.68,6,Houston,36,0,1
